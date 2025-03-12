@@ -1,0 +1,25 @@
+.cabecalho{
+    background-color: #D0D7DC;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho img{
+    width: 203px;
+    height: 47px;
+    justify-content: flex-start;
+}
+
+.cabecalho .botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cabecalho .botao-personalizado{
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 0px 5px;
+}

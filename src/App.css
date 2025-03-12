@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App h1{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  color: #4B26E5;
 }
