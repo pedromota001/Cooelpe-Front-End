@@ -1,0 +1,28 @@
+.section-descritivo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .section-descritivo p {
+    color: #000000;
+    font-size: 16px;
+    white-space: pre-wrap;
+    width: 80%;
+    max-width: 600px; 
+    text-align: left;
+  }
+  
+  .section-descritivo h1 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .div-imagens{
+    display: flex;
+    justify-content: space-between;
+  }

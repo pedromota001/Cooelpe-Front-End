@@ -6,3 +6,8 @@
     max-width: 100%;
     background-color: #E7E0E0;
 }   
+
+.div-botoes{
+    display: flex;
+    justify-content: center;
+}

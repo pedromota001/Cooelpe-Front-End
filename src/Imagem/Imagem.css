@@ -1,0 +1,12 @@
+.fundo-imagem {
+    background-color: #D0D7DC;
+    width: 687px;
+    height: 490px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 30px;
+}
+
+
