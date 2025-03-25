@@ -14,6 +14,8 @@ const Banner = () => {
                 <Botao
                 texto = "Nossos objetivos"
                 />
+
+                <button>Teste</button>
             </div>
         </section>
     )
