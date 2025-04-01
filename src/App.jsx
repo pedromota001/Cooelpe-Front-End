@@ -5,14 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Descritivo from './Descritivo';
-import RedirecionarLogin from './Redirecionarlogin';
+import BotaoLogin from './BotaoLogin';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Login from './pages/Login';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <RedirecionarLogin /> 
+      <div className="App"> 
         <Cabecalho />
         <Routes>
           <Route path="/" element={
@@ -32,7 +32,7 @@ function App() {
               />
             </>
           } />
-          <Route path="/login"  /> {/* adicionar aqui o componente login que posteriormente vai ser criado*/}
+          <Route path="/login" element={<Login/>} /> 
         </Routes>
       </div>
     </Router>

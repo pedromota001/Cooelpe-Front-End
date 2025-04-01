@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Krona+One&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+.div-form-login{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    background-color: #D0D7DC;
+    border-radius: 15px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 00.8);
+    align-self: center;
+}
+
+.div-form-login img{
+    width: 380px;
+    height: 300px;
+    margin-left: 53px;
+}
+
+.btn-submit-edit{
+    background-color: #ECC267;
+    border-color: #ECC267;
+    width: 448px;
+    height: 68px;
+    border-radius: 18px;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 35px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-submit-edit:hover{
+    background-color: #7380E6;
+    border: #7380E6;
+}
+
+
+
+.div-form-login input[type="text"]:focus{
+    border-color: #ECC267;
+    outline: none;
+}
+
+.input-label {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ecc267;
+    border-radius: 18px;
+    padding: 10px 16px;
+    background-color: white;
+    max-width: 448px;
+    margin: 6px 0;
+}
+
+.input-label input{
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+}
+
+.icon-edit{
+    color: #ECC267;
+    margin-right: 10px;
+    width: 20px;
+    height: 16px;
+}
