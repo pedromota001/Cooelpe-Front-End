@@ -4,16 +4,17 @@
     justify-content: space-between;
 }
 
-.cabecalho img{
+.cabecalho img {
     width: 203px;
     height: 47px;
     justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .cabecalho .botoes{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: 4px 15px;
 }
 
 
@@ -22,4 +23,20 @@
     background-color: transparent;
     border: none;
     padding: 0px 5px;
+    margin: 15px 0px
+}
+
+.cabecalho .botoes i {
+    font-size: 30px; 
+    color: black; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.cabecalho .botao-personalizado i {
+    font-size: 35px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 0px 5px;
+    margin: 15px 0px
 }
